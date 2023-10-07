@@ -1,0 +1,79 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url("https://blog.appsumo.com/wp-content/uploads/2021/08/AS-blog-best-to-do-list-app-1536x614px-1-1.png"); /* Replace 'background.jpg' with your background image URL */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  max-width: 400px;
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.8
+  ); /* Semi-transparent white background */
+}
+
+h1 {
+  color: #333;
+}
+
+#task-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+#new-task {
+  flex-grow: 2;
+  padding: 5px;
+}
+
+button {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px 0;
+  padding: 5px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button.delete {
+  background-color: #ff4646;
+}
+
+button.complete {
+  background-color: #50d890;
+}
+
+.completed {
+  text-decoration: line-through;
+  background-color: #f0f0f0;
+}
